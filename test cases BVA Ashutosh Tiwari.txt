@@ -1,0 +1,51 @@
+Question 1 
+
+17       |       98         N-1   M-1
+18       |       99         N     M
+19       |       100        N+1   M+1
+
+Question 2
+59       |      99
+60       |      100
+61       |      101
+
+Question 3
+Class 1 age<18 
+Class 2 age>=18  age<=25
+Class 3 age>25 age<40   
+class 4 age>=40 <65  10%more
+class 5 age>=65   5% more
+class 6 age>=65   
+
+
+Question 4
+AGE               DISCOUNT
+Age<8              YES
+AGE>=8 AND AGE<=35 NO
+AGE>35 AND <45     YES
+45<=AGE<=60         NO
+AGE>60              YES
+AGE<=0              INVALID
+
+Question 5
+QUANTITY     	ACCEPTED      	DISCOUNT
+4            	NO             	NO
+5             	YES           	NO
+6              	YES          	NO
+50              YES             NO
+99             	YES           	NO
+100            	YES           	YES
+101            	YES           	YES
+
+QUESTION 6
+TENURE       BONUS        	<0
+1            NO     		>=0 <2
+2            NO
+3            YES   10%   	>2 <5
+4            YES   10%
+5            YES   25%  	>=5  <10
+6            YES   25%
+10           YES   25%
+11           YES   35%   	>=10
+0            NO
+-1           NOT ALLOWED
