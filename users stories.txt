@@ -1,0 +1,77 @@
+1. Account Registration
+
+Story: As a site visitor, I want a simplified registration page so that I can create an account quickly.
+Acceptance Criteria:
+Input fields require email and password only.
+    Validation shows an error for invalid email formats.
+   System sends a confirmation email upon submission.
+
+2. User Login
+
+Story: As a registered user, I want to log in with my credentials so that I can access my private dashboard.
+Acceptance Criteria:
+Error message appears for wrong email or password.
+    "Stay logged in" checkbox keeps session active.
+    Successful login redirects to home or profile page.
+
+3. Password Reset
+
+Story: As a user, I want to reset my password via email so that I can regain access if I forget it.
+Acceptance Criteria:
+Form accepts any registered email address.
+   Email sends a reset link valid for 24 hours.
+   New password saves and logs the user in.
+
+4. Product Search
+
+Story: As a shopper, I want to search for products by keyword so that I find items fast.
+Acceptance Criteria:
+Search bar sits clearly in the top header.
+    Results display matching products within two seconds.
+    Empty state shows a clear "no results found" message.
+
+5. Product Filtering
+
+Story: As a customer, I want to filter products by category so that I narrow down my choices.
+Acceptance Criteria:
+Sidebar lists selectable product categories.
+    Clicking a category updates the product grid immediately.
+    Clear-filters button resets view to all products.
+
+6. Wishlist Saving
+
+Story: As a shopper, I want to save items to a wishlist so that I can buy them later.
+Acceptance Criteria:
+Heart icon on product card toggles saved state.
+    Wishlist view displays all saved products.
+   Users can move items directly from wishlist to cart.
+
+7. Add to Cart
+ Story: As a shopper, I want to add items to a shopping cart so that I can purchase multiple products together.* Acceptance Criteria:
+ Cart badge counter increments when adding an item.
+    Cart drawer shows item thumbnail, price, and subtotal.
+    Users can change item quantity or delete rows.
+
+8. Fast Checkout
+
+ Story: As a frequent shopper, I want to save my payment details so that I check out fast next time.
+ Acceptance Criteria:
+ Checkbox offers "Save payment for future purchases".
+   Saved card displays masked numbers (e.g., **** 1234).
+    One-tap checkout works with a saved default card.
+
+9. Order Tracking
+
+ Story: As a customer, I want to track my order status so that I know arrival timing.
+ Acceptance Criteria:
+ Order history shows status tags (Processing, Shipped, Delivered).
+   Tracking ID links to the carrier tracking portal.
+
+10. Invoice Download
+
+Story: As a user, I want to download past invoices so that I can track my expenses.
+Acceptance Criteria:
+PDF download button shows next to completed orders.
+   File lists merchant info, date, line items, and total tax.
+
+
